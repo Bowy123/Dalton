@@ -1,0 +1,59 @@
+
+body{
+    background-color: pink;
+    cursor: pointer;
+}
+
+.card {
+    background: white;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 70vh;
+}
+
+.card .left {
+    margin-left: 2rem;
+}
+
+.card .left .upper-left img {
+    margin-top: 5rem;
+    transition: 0.3s;
+}
+
+.card .left .upper-left img:hover {
+    opacity: 0.5;
+}
+
+.card .left .lower-left h4 {
+    color: pink;
+    font-size: 20px;
+}
+
+.card .left .lower-left span button{
+    color: pink;
+    gap: 2rem;
+}
+
+.card .header-right h1{
+    color: pink;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.card .header-right h2 {
+    width: 400px;
+    left: 123px;
+    line-height: 40px;
+
+}
+
+.card .header-right h3 {
+    color: pink;
+    font-size: 50px;
+}
+
+.card .header-right h4 {
+    color: rgb(190, 178, 178);
+    left: 400px;
+}
